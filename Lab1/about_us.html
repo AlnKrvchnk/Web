@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+   <title>Енакиево</title>
+    <link rel="shortcut icon" href="Images/800px-Coat_of_Arms_of_Yenakiieve.png" type="image/png">
+    <link rel="stylesheet" href="Css/Style.css" type="text/css">  
+   
+</head>
+<body>
+
+ <header class="header" style="background: none; height:auto; ">
+      <div class="menu"  >
+       <a href="about_us.html" >Разработчику</a>
+       <a href="culture.html">Культура</a>
+       <a href="infrostruct.html">Инфраструктура</a>
+       <a href="history.html">История</a>
+       <a href="index.html">Главная</a>
+       <img src="Images/800px-Coat_of_Arms_of_Yenakiieve.png" >
+       <h2>Е<span/>накиево</h2>
+       </div>
+       </header>
+       <div class="newsblock" style="padding-top: 40px">
+         <h2 style="paddin">Связь с разработчиком</h2>
+     </div>
+     <fieldset class="contact_form" method="post">
+     <form  action="contact-form.php" >
+    <p>
+            <label for="name">Имя:</label>
+            <input type="text"  name="name" placeholder="Введите ваше имя" required />
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Введите электронный адрес" required />
+            <em class="form_hint">Правильный формат "name@something.com"</em>
+        </p>
+        <p>
+            <label for="tel">Телефон:</label>
+            <input type="tel" name="tel" placeholder="Введите номер телефона" required />
+            <em class="form_hint">Правильный формат "+38-071-4567890"</em>
+        </p>
+        <p>
+            <label for="website">Сайт:</label>
+            <input type="url" name="website" placeholder="Введите адрес вашего сайта" pattern="(http|https)://.+"/>
+            <em class="form_hint">Правильный формат "http://someaddress.com"</em>
+        </p>
+        <p>
+            <label for="message">Текст сообщения:</label>
+            <textarea name="message"  required ></textarea>
+        </p>
+        
+        <p>
+            <button class="submit" type="submit">Отправить сообщение</button>
+        </p>
+</form>
+</fieldset>
+ 
+
+     <script src="script.js"></script>
+</body>
+</html>

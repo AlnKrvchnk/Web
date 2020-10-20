@@ -1,0 +1,318 @@
+body{margin: 0;
+   background: rgba(139,195,242,0.1);
+}
+.header{
+    overflow: hidden;
+    width: 100%;
+    height: 900px;
+    background-image:linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.1)), url(../Images/Fon.png);
+    
+    background-size:cover;
+    
+
+}
+.menu {
+    overflow: hidden;
+    
+    background-image:linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.1));
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    
+}
+.menu img{
+    height:40px; 
+    margin:4px 0px 0px 20% ;
+    display:block;
+    float: left;
+    opacity: 0.8;
+}
+[href="about_us.html"]:before{
+    content: "| "
+}
+.menu img:hover {
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+      }
+.menu h2{
+    display:block;
+    float: left;
+    margin:10px 0 0 30px ;
+    color:red;
+    font-family: "Century Gothic";
+    opacity: 0.7;
+}
+.menu h2 span{
+    color:black;
+    font-family: "Courier New";
+    opacity: 1;
+}
+.menu h2:hover {
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+      }
+.menu a {
+    font-family: "Century Gothic";
+    float: right;
+    display:block;
+    
+    text-decoration:inherit;
+    color: aliceblue;
+    opacity: 0.8;
+    padding: 15px 30px 15px 0px;
+  
+}
+.menu a:hover {
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+   
+      }
+.title h1{
+    font-family: "Century Gothic";
+    color: aliceblue;
+    font-size: 1000%;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+.title h2{
+    font-family: "Courier New";
+    color: aliceblue;
+    font-size: 500%;
+    text-align: center; 
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 0.7;
+}
+.title h3{
+    font-family: "Courier New";
+    color: aliceblue;
+      margin-top: 0;  
+    font-size: 200%;
+    text-align: center;
+    opacity: 0.5;
+    
+}
+.newsblock h2{
+   font-family: "Century Gothic";
+   color: rgba(0,0,0,0.8);
+    margin: 2%;
+    font-size: 400%;
+    text-align: center;
+    border: 3px solid rgba(0,0,0,0.2);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: rgba(139,195,242,0.2);
+    margin-bottom: 2px
+    
+}
+
+* {box-sizing: border-box;}
+.img {
+  width: 400px;
+  position: relative;
+  border: 1px groove;
+    border-color: rgba(0,0,0,0.5);
+    
+}
+.img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+   
+}
+.img h3 {
+font-family: "Century Gothic";
+  margin: 0px;
+position: absolute;
+  line-height: 1.1;
+  font-size: 1.2em;
+  font-weight: 200;
+  left: 10;
+  bottom: 0;
+  padding: 10px 10px 10px 10px;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+.date {
+  font-family: "Courier New";
+  font-size: .7em;
+}
+.owl-carousel{
+    margin:2%;
+ 
+        
+}
+.owl-nav img{
+    width: 10%;
+    
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    top:50%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+.owl-nav .owl-next{
+    position: absolute;
+    top:50%;
+    right: 0;
+}
+.owl-nav .owl-prev:hover,.owl-nav .owl-next:hover{
+    
+   background: none limportant;
+    outline: none limportant;
+    opacity: 1;
+    
+}
+.owl-nav .owl-prev,.owl-nav .owl-next{
+outline: none;
+    opacity: 0.6;
+    transition: all .5s ease;
+}
+
+
+.gallery{
+    background: rgba(0,0,0,0.0);
+    margin-right: 1%;
+    margin-left: 1.8%;
+}
+
+.gallery img{
+    padding:0px;
+    margin: 5px;
+    width: 32%;
+    height: auto;
+}
+table{
+     padding: 1.91%;
+    padding-top: 0px;
+    
+}
+tr{
+    font-family: "Century Gothic";
+  margin: 1px;
+  line-height: 1.1;
+  font-size: 1.2em;
+  font-weight: 200;
+  left: 10;
+  padding: 100px 10px 10px 10px;
+  background: rgba(0, 0, 0, 0.4);
+  color: aliceblue;
+}
+.historydate {
+        font-family: "Courier New";
+  font-size: 150%;
+    text-align: center;
+    opacity: 0.9;
+    font-weight: 500;
+   
+}
+
+.newsblock {
+   font-family: "Century Gothic";
+  margin: 2px;
+  line-height: 1.1;
+  font-size: 1.2em;
+  font-weight: 200;
+  left: 10;
+  padding: 100px 10px 10px 10px;
+ 
+  color: aliceblue;
+     
+}
+.text{
+    color: rgba(0, 0, 0, 0.9); ;
+    padding: 0.5%;
+    margin: 2%;
+      margin-top: 0px;
+}
+p span{
+    font-family: "Courier New";
+    font-size: 150%;
+     opacity: 0.9;
+    font-weight: 500;
+}
+.text p{
+    margin: 10px;
+}
+.map{
+     
+    padding: 0.5%;
+    margin: 2%;
+      margin-top: 0px;
+    padding-left: 30%;
+     padding-right: 30%;
+}
+.clear{
+    clear: both;
+}
+
+ ul {
+    padding-left: 0; /* Убираем отступ слева */
+    list-style-type: none; /* Прячем маркеры списка */
+   }
+   li:before {
+    content: "\20aa "; /* Добавляем перед элементом списка символ в юникоде */
+   }
+[method]{
+    border:3px solid rgba(0,0,0,0.2);
+    padding-left: 10%;
+    margin: 3%;
+    margin-top: 0px;
+    height: auto;
+}
+input{
+   border: 3px solid rgba(0,0,0,0.2);
+    border-radius: 50px;
+    height: 30%;
+   width: -webkit-fill-available;
+    padding: 2%;
+    font-size: 200%;
+    color:rgba(0,0,0,0.6);
+   
+    
+}
+input:focus{
+    border-color:black;
+    color: black; 
+}
+textarea:focus{
+   border-color:black;
+    color: black;  
+}
+
+textarea{
+    border: 3px solid rgba(0,0,0,0.2);
+    border-radius: 40px;
+    height: 30%;
+   width: -webkit-fill-available;
+    padding: 3%;
+    font-size: 200%;
+    color:rgba(0,0,0,0.6);
+}
+[for]{font-family: "Courier New";
+  font-size: 200%;
+    text-align: center;
+    opacity: 0.9;
+    font-weight: 800;
+    
+}
+button{
+   font-family: "Century Gothic";
+   color: rgba(0,0,0,0.8);
+    margin-left: 10%;
+    font-size: 400%;
+    text-align: center;
+    border: 3px solid rgba(0,0,0,0.2);
+    border-radius: 20px;
+    background: rgba(139,195,242,0.2);
+    margin-bottom: 2px
+}
+
+button:active{
+    background-color: cadetblue;
+}
