@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="Css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript">
+  function showOrHide(cb, cat) {
+      cat = document.getElementById(cat);
+      if(cb=="cb3"){
+    cat.style.display = "inline-block";
+  }
+      else{
+    cat.style.display = "none"; 
+      }
+  }
+</script>
+</head>
+<body>
+    <header class="header">
+    <logo class="logo">Bran<span>d</span></logo>
+  <div class="search">
+   <select class="mmenuu" name="type" >
+    <option  disabled selected>Brows</option>
+    <option value="">Home</option>
+    <option value="">Man</option>
+    <option value="">Woman</option>
+    <option value="">Kids</option>
+    <option value="">Accoseries</option>
+    <option value="">Featured</option>
+    <option value="">Hot Deals</option>
+       </select>
+       <input type="text" placeholder="Search for item..." class="input_search">
+       <button class="button_search" ><a href="#button"><i class="fa fa-search"></i></a></button>
+       </div>
+       <div class=div_but>
+       <button class="myacc"><a href="#acc" class="myaccount">My account</a></button>
+       </div>
+</header> 
+
+
+<menu class="menu" style="position:static">
+    <a href="index.html">Home</a>
+    <a href="#man">Man</a>
+    <a href="#Woman">Woman</a>
+    <a href="#Kids">Kids</a>
+    <a href="#Accoseries" >Accoseries</a>
+    <a href="#Featured">Featured</a>
+    <a href="#Hot deals">Hot deals</a>
+</menu>  
+<div class="nav">
+    <p>New Arrivals </p>
+    <p><a href="#hf">Home / Men /<span>New Arrivals</span> </a></p>
+</div>
+<div class="accordion">
+<details>
+
+<summary>01.&ensp; Shipping Adress</summary>
+<div class="body">
+<div class="main_text"><div><p><span>Check as a guest or register</span><br>Register with us for future convenience</p></div>
+<div class="check">
+<input type = 'radio' checked name="check" id = 'guest' onchange = 'showOrHide("cb2", "cat3");'/><label>checkout as guest</label>
+  <br />
+  <input type = "radio" id = 'cb3' name="check" onchange = 'showOrHide("cb3", "cat3");' /><label>register</label>
+  <br />
+  </div>
+  <div><p><span>register and save time!</span><br>Register with us for future convenience</p></div>
+  <div class="p"><p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p>
+  <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p></div>
+  <div class="but"><button><a href="#0">Continue</a></button></div></div>
+  <div class="cat" id = 'cat3' style = 'display: none;'>
+      <p><span>Already registed?</span><br>
+      Please log in below</p>
+      <label>EMAIL ADDRESS
+      </label><br><input type="email"><br>
+      <label >PASSWORD
+      </label><br><input type="password">
+    <p class="hint">* Required Fileds</p>
+      <button class="login" style="margin-top: 10px"><a href="#0">Log in</a></button>
+      <a href="#0">Forgot Password ?</a>
+  </div>
+  </div>
+  </details>
+
+<details><summary>02.&ensp; BILLING INFORMATION</summary>
+<div class="body">
+<div class="main_text"><div><p><span>Check as a guest or register</span><br>Register with us for future convenience</p></div>
+<div class="check">
+<input type = 'radio' checked name="check" id = 'guest' onchange = 'showOrHide("cb2", "cat3");'/><label>checkout as guest</label>
+  <br />
+  <input type = "radio" id = 'cb3' name="check" onchange = 'showOrHide("cb3", "cat3");' /><label>register</label>
+  <br />
+  </div>
+  <div><p><span>register and save time!</span><br>Register with us for future convenience</p></div>
+  <div class="p"><p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p>
+  <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p></div>
+  <div class="but"><button><a href="#0">Continue</a></button></div></div>
+    </div>
+  </details>
+
+<details><summary>03.&ensp; SHIPPING INFORMATION</summary>
+<div class="body">
+<div class="main_text"><div><p><span>Check as a guest or register</span><br>Register with us for future convenience</p></div>
+<div class="check">
+<input type = 'radio' checked name="check" id = 'guest' onchange = 'showOrHide("cb2", "cat3");'/><label>checkout as guest</label>
+  <br />
+  <input type = "radio" id = 'cb3' name="check" onchange = 'showOrHide("cb3", "cat3");' /><label>register</label>
+  <br />
+  </div>
+  <div><p><span>register and save time!</span><br>Register with us for future convenience</p></div>
+  <div class="p"><p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p>
+  <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p></div>
+    <div class="but"><button><a href="#0">Continue</a></button></div></div></div>
+  </details>
+
+<details><summary>04.&ensp; SHIPPING METHOD</summary>
+<div class="body">
+<div class="main_text"><div><p><span>Check as a guest or register</span><br>Register with us for future convenience</p></div>
+<div class="check">
+<input type = 'radio' checked name="check" id = 'guest' onchange = 'showOrHide("cb2", "cat3");'/><label>checkout as guest</label>
+  <br />
+  <input type = "radio" id = 'cb3' name="check" onchange = 'showOrHide("cb3", "cat3");' /><label>register</label>
+  <br />
+  </div>
+  <div><p><span>register and save time!</span><br>Register with us for future convenience</p></div>
+  <div class="p"><p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p>
+  <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p></div>
+    <div class="but"><button><a href="#0">Continue</a></button></div></div></div>
+ </details>
+
+<details><summary>05.&ensp; PAYMENT METHOD</summary><div class="body"><div class="main_text"><div><p><span>Check as a guest or register</span><br>Register with us for future convenience</p></div>
+<div class="check">
+<input type = 'radio' checked name="check" id = 'guest' onchange = 'showOrHide("cb2", "cat3");'/><label>checkout as guest</label>
+  <br />
+  <input type = "radio" id = 'cb3' name="check" onchange = 'showOrHide("cb3", "cat3");' /><label>register</label>
+  <br />
+  </div>
+  <div><p><span>register and save time!</span><br>Register with us for future convenience</p></div>
+  <div class="p"><p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p>
+  <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p></div>
+    <div class="but"><button><a href="#0">Continue</a></button></div></div></div>
+  </details>
+
+<details><summary>06.&ensp; ORDER REVIEW</summary><div class="body"><div class="main_text"><div><p><span>Check as a guest or register</span><br>Register with us for future convenience</p></div>
+<div class="check">
+<input type = 'radio' checked name="check" id = 'guest' onchange = 'showOrHide("cb2", "cat3");'/><label>checkout as guest</label>
+  <br />
+  <input type = "radio" id = 'cb3' name="check" onchange = 'showOrHide("cb3", "cat3");' /><label>register</label>
+  <br />
+  </div>
+  <div><p><span>register and save time!</span><br>Register with us for future convenience</p></div>
+  <div class="p"><p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p>
+  <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;Fast and easy checkout</p></div>
+    <div class="but"><button><a href="#0">Continue</a></button></div></div></div>
+  </details>
+</div>
+
+    <div class="subscribe">
+      <div class="gr">
+       <div class="first">
+        <p><i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</i></p>
+ <p><span>Bin Burhan<br></span>Dhaka, Bd</p>
+ <div class="rectangle">
+ <div  style="background:#d6d6d6 "></div>
+ <div style="background: #f16d7f; "></div></div>
+ </div>
+ 
+  <div class="second">
+      <p><span>Subscribe</span><br>FOR OUR NEWLETTER AND PROMOTION</p>
+      <div>
+      <input type="email" name="email" placeholder="Enter Your Email">
+      <button><a href="#3">Subscribe</a></button>
+      </div>
+    
+     
+  </div>
+   </div>
+   <div class="line"></div>
+    </div>
+    <footer class="footer">
+        <div class="part">
+            <div class="first_col">
+                <p class="logo">Bran<span>d</span></p>
+                <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
+                <p>Efficiently plagiarize 24/365 action items and focused infomediaries.
+Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+            </div>
+            <div class="column">
+                <h3>Company</h3>
+                <lu>
+                    <li><a href="#5">Home </a></li>
+                    <li><a href="#5">Shop</a></li>
+                    <li><a href="#5">About</a></li>
+                    <li><a href="#5">How It Works</a></li>
+                    <li><a href="#5">Contact</a></li>
+                </lu>
+            </div>
+            <div class="column">
+                <h3>Information</h3>
+                 <lu>
+                     <li><a href="#5">Tearms & Condition</a></li>
+                     <li><a href="#5">Privacy Policy</a></li>
+                     <li><a href="#5">How to Buy</a></li>
+                     <li><a href="#5">How to Sell</a></li>
+                     <li><a href="#5">Promotion</a></li>
+                </lu>
+            </div>
+            <div class="column">
+                <h3>Shop Category</h3>
+                 <lu>
+                     <li><a href="#5">Men</a></li>
+                     <li><a href="#5">Women</a></li>
+                     <li><a href="#5">Child</a></li>
+                     <li><a href="#5">Apparel</a></li>
+                     <li><a href="#5">Brows All</a></li>
+                </lu>
+            </div>
+        </div>
+        <div class="part">
+          <p class="br">© 2017  Brand  All Rights Reserved.</p>  
+          <div>
+            <div class="links">
+                <a href="#fb" class="fb" ><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#tw" class="tw"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#in" class="in"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#pin" class="pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                <a href="#g+" class="gp"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
