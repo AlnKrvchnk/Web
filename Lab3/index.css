@@ -1,0 +1,367 @@
+body{display: flex;
+    
+}
+.anim8{
+    position: relative;
+margin:4%;
+  width: 300px;
+  height: 300px;
+    background: #9e56bf;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.anim8 label{
+    position: absolute;
+    top:20%;
+    left:10%;
+    font-size: 30px;
+        height: 15%;
+    width: 80%;
+    color:white;
+    
+}
+.anim8 input{
+    position: absolute;
+    width: 80%;
+    top:40%;
+    left:7%;
+    height: 15%;
+    background: #833ea3;
+    border:none
+}
+.anim8 input:hover ~ label{
+     animation-name: label;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+
+@keyframes label {
+    from{-webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    to {
+        -webkit-transform: translateX(25%);
+        transform: translateX(20%);
+    }
+}
+
+.anim2{
+    position: relative;
+margin:4%;
+  width: 300px;
+  height: 300px;
+    background: #9e56bf;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.anim2 .body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.anim2 div:not(:first-child){
+     position: absolute;
+    background: white;
+    width: 4%;
+    height: 4%;
+    border-radius:50%;
+}
+
+.anim2 .dot1{
+     top:5%;
+    left:32%;
+}
+.anim2  .dot2{
+     top:19%;
+    right:32%;
+}
+.anim2 .dot3{
+     top:33%;
+    left:32%;
+}
+.anim2  .dot4{
+     top:47%;
+    right:32%;
+}
+.anim2  .dot5{
+     top:61%;
+    left:32%;
+}
+.anim2  .dot6{
+     top:75%;
+    right:32%;
+}
+.anim2  .dot7{
+     top:89%;
+    left:32%;
+}
+
+.body:hover ~ .dot1{
+    animation-name: dot1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.body:hover ~ .dot2{
+    animation-name: dot2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.body:hover ~ .dot3{
+    animation-name: dot3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+.body:hover ~ .dot4{
+    animation-name: dot4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.body:hover ~ .dot5{
+    animation-name: dot5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+.body:hover ~ .dot6{
+    animation-name: dot6;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+.body:hover ~ .dot7{
+    animation-name: dot7;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+@keyframes dot1 {
+               
+    0%,26.2%,28%,44.2%,46%,62.2%,64%,80.2%,82%,100%{transform: translateX(0%)}
+   24.4%,29.8%,42.4%,47.8%,60.4%,65.8%,78.4%,83.8%, 98.2%{transform: translateX(200%)}
+2.8%,13.6%,22.6%,31.6%,40.6%,49.6%,58.6%,67.6%,76.6%,85.6%,96.4%{transform: translateX(400%)}
+   15.4%,20.8%,33.4%,38.8%,51.4% ,56.8%,69.4%,74.8%,87.4%, 94.6%{transform: translateX(600%)}
+   17.2%,19%,35.2%,37%,53.2%,55%, 71.2%,73%,89.2%,91%,92.8%{transform: translateX(800%)}
+
+}
+@keyframes dot2 {        
+    0%,15.4%,17.2%,33.4%,35.2%,51.4%,53.2%,69.4%,71.2%,87.4%,100%{transform: translateX(0%)}
+  13.6%,19%,31.6%,37%,49.6%,55%,67.6%,73%, 85.6%{transform: translateX(-200%)}
+2.8%,11.8%,20.8%,29.8%,38.8%,47.8%,56.8%,65.8%,74.8%,83.8%{transform: translateX(-400%)}
+ 22.6%,28%, 40.6%,46%,58.6%,64%,76.6%,82%{transform: translateX(-600%)}
+  24.4%,26.2%, 42.4%,44.2% ,60.4%,62.2%,78.4%,80.2% {transform: translateX(-800%)}
+}
+@keyframes dot3 {        
+    0%,22.6%,24.4%,40.6% ,42.4% , 58.6%,60.4% ,76.6%,100%{transform: translateX(0%)}
+  20.8%,26.2%,38.8% ,44.2% ,56.8%,62.2%, 74.8%{transform: translateX(200%)}
+2.8%,10%,19%,28% ,37%,46%,55%, 64%, 73%{transform: translateX(400%)}
+ 11.8%,17.2%,29.8% ,35.2%,47.8%,53.2%,65.8%,71.2%{transform: translateX(600%)}
+  13.6%,15.4%,31.6% ,33.4%,49.6%,51.4%,67.6%,69.4%{transform: translateX(800%)}
+}
+@keyframes dot4 {        
+    0%,11.8%,13.6%,29.8% ,31.6% ,47.8% ,49.6% ,65.8%,100%{transform: translateX(0%)}
+  10%,15.4%  ,28% , 33.4%,46%,51.4%, 64%{transform: translateX(-200%)}
+2.8%,8.2%,17.2%,26.2%,35.2%,44.2%,53.2%,62.2% {transform: translateX(-400%)}
+ 19% ,24.4%,37%,42.4%,55%,60.4%{transform: translateX(-600%)}
+   20.8%,22.6%,38.8% ,40.6%,56.8%,58.6%,{transform: translateX(-800%)}
+}
+@keyframes dot5 {    
+    0%, 19%,20.8%, 37%,38.8%,55%,100%{transform: translateX(0%)}
+  17.2%, 22.6%,35.2%, 40.6%,53.2% {transform: translateX(200%)}
+2.8%,6.4%,15.4%,24.4%, 33.4%,42.4%,51.4%{transform: translateX(400%)}
+  8.2%,13.6%,26.2%,31.6%,44.2%, 49.6%{transform: translateX(600%)}
+   10% ,11.8%,28% ,29.8%, 46%, 47.8%{transform: translateX(800%)}
+}
+@keyframes dot6 {        
+    0%,8.2%,10%, 26.2%,28% ,44.2%  ,100%{transform: translateX(0%)}
+ 6.4% , 11.8%, 24.4%,29.8% ,42.4%{transform: translateX(-200%)}
+2.8%,4.6%,13.6%%,22.6%,31.6%,40.6% {transform: translateX(-400%)}
+  15.4% ,20.8%,33.4%,38.8%{transform: translateX(-600%)}
+   17.2%,19%, 35.2%,37%{transform: translateX(-800%)}
+}
+@keyframes dot7 {    
+    0%,15.4%, 17.2%, 33.4%,100%{transform: translateX(0%)}
+  13.6%, 19%, 31.6% {transform: translateX(200%)}
+2.8%,11.8%,20.8%,29.8%{transform: translateX(400%)}
+   4.6%,10%,22.6%,28%{transform: translateX(600%)}
+   6.4%, 8.2%, 24.4%,26.2%{transform: translateX(800%)}
+}
+
+
+
+.anim4{
+    position: relative;
+ margin:4%;
+  width: 300px;
+  height: 300px;
+    background: #9e56bf;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.anim4 .pages{
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    top: 40%;
+    left:5%;
+    background: #833ea3;
+}
+.anim4 .pages .center{
+    position: absolute;
+    width: 28%;
+    left:36%;
+    bottom:0%;
+    font-size: 250%;
+     background: #833ea3;
+    
+}
+.anim4 .pages .center p{
+     padding: 0%;
+    margin: 0%;
+    color:white;
+    font-weight: 500;
+    font-family: cursive;
+   
+}
+
+.anim4 .pages .page1 .ltop{
+    position: absolute;
+     background-color: white;
+    width: 15%;
+    height: 10%;
+    top:45%;
+    left:7%;
+    border-radius:20%;
+    opacity: 50%;
+    pointer-events: none;
+
+}
+.anim4 .pages .page1 .lbottom{
+    position: absolute;
+     background-color: white;
+   width: 15%;
+    height: 10%;
+    bottom:45%;
+    left:7%;
+    border-radius:20%;
+    opacity: 50%;
+    pointer-events: none;
+}
+
+
+.anim4 .pages .page4 .rtop{
+    position: absolute;
+     background-color: white;
+    width: 15%;
+    height: 10%;
+    top:34%;
+    right: 7%;
+    border-radius:20%;
+    pointer-events: none;
+    transform: rotate(20deg)
+}
+.anim4 .pages .page4 .rbottom{
+    position: absolute;
+     background-color: white;
+    width: 15%;
+    height: 10%;
+    bottom:34%;
+    right: 7%;
+    border-radius:20%;
+    pointer-events: none;
+    transform: rotate(-20deg)
+}
+
+[type="checkbox"]{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    right:0%;
+    opacity: 0%;
+    
+}
+[type="checkbox"]:checked {
+    left:0%;
+}
+[type="checkbox"]:checked ~ .center{
+    opacity:0%;
+}
+.instart:checked{
+    z-index: 0;
+}
+.in2:checked{
+    z-index: 1;
+}
+.in3:checked{
+    z-index: 2;
+}
+.in4:checked{
+    z-index: 3;
+}
+.in4:checked ~ .rtop{
+    animation-name: rtop;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+    
+}
+.in4:checked ~ .rbottom{
+    animation-name: rbottom;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+    
+}
+.instart:checked ~ .ltop{
+     animation-name: ltop;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+     
+}
+@keyframes rtop {
+               
+    0%{transform: translateY(0%) rotate(20deg);
+    opacity: 100%}
+  100%{transform: translateY(100%) rotate(0deg);
+    opacity: 50%;}
+
+}
+@keyframes rbottom {
+               
+    0%{transform: translateY(0%) rotate(-20deg);
+    opacity: 100%}
+  100%{transform: translateY(-100%) rotate(0deg);
+    opacity: 50%;}
+
+}
+@keyframes ltop {
+               
+    0%{transform: translateY(0%) rotate(0deg);
+    opacity: 50%}
+  100%{transform: translateY(-110%) rotate(-20deg);
+    opacity: 100%;}
+
+}
+.instart:checked ~ .lbottom{
+     animation-name: lbottom;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+     
+}
+@keyframes lbottom {
+               
+    0%{transform: translateY(0%) rotate(0deg);
+    opacity: 50%}
+  100%{transform: translateY(110%) rotate(20deg);
+    opacity: 100%;}
+
+}

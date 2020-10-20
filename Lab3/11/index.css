@@ -1,0 +1,2121 @@
+.background{
+    position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 800px;
+  height: 500px;
+    background: #eeeeee;
+    
+}
+.background .back{
+    position: absolute;
+  width: 100%;
+  height: 100%; 
+    border-bottom: 5px solid #dddddd;
+     /*animation-name: tremor;
+    animation-duration: 6s;
+    animation-timing-function: ease;*/
+}
+/*
+@keyframes tremor {
+    0%{
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    10%{-webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);}
+     20%, 30%,40%, 50%,60%,70%,80%,90%,100% {
+        -webkit-transform: translateX(-1%);
+        transform: translateX(-1%);
+        -webkit-transform: rotate(1deg);
+        transform: rotate(1deg);
+    }
+     25%, 35%,45%, 55%,65%,75%,85%,95% {
+        -webkit-transform: translateX(1%);
+        transform: translateX(1%);
+        -webkit-transform: rotate(-1deg);
+        transform: rotate(-1deg);
+    }
+}
+/*Tony*/
+.Tony{
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    width: 35%;
+    height: 60%;
+    animation-name: tony;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+ 
+}
+@keyframes tony{
+    10%{
+         transform: translateY(0%)
+    }
+    40%{
+        transform: translateY(-70%)
+    }
+    60%{
+        transform: translateY(-70%)
+    }
+    100%{
+         transform: translateY(0%)
+    }
+}
+.Tony .head{
+    height: 20%;
+    width: 20%;
+    left: 40%;
+    position: absolute;
+    background: #ff2400;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.Tony .mask .top_left{
+    position: absolute;
+    bottom: 55%;
+    width: 33%;
+    height: 20%;
+    border-top-left-radius: 100%;
+    background: #ffd700;
+}
+.Tony .mask .top_right{
+    position: absolute;
+    bottom: 55%;
+    right: 0;
+    width: 33%;
+    height: 20%;
+    border-top-right-radius: 100%;
+    background: #ffd700;
+}
+.Tony .mask .middle{
+     position: absolute;
+    bottom: 30%;
+    width: 100%;
+    height: 30%;
+    background: #ffd700;
+}
+.Tony .mask .bottom{
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    height: 30%;
+    background: #ffd700;
+    -webkit-clip-path: polygon(50% 0%, 50% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+}
+.Tony .lefteye{
+    position: absolute;
+    width: 19%;
+    height: 7%;
+    bottom:40%;
+    background: #ffffe0;
+
+    left: 15%;
+}
+.Tony .righteye{
+    position: absolute;
+    width: 19%;
+    height: 7%;
+    bottom:40%;
+    background: #ffffe0;
+    right: 15%;
+}
+
+.Tony .body{
+    position: absolute;
+    height:  80%;
+    width: 60%;
+    top:20%;
+    left:20%;
+}
+.Tony .top_shadow{
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top:0%;
+    left:0%;
+    background: #dd0000;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+.Tony .body .top{
+    position: absolute;
+    height: 100%;
+    width: 87%;
+    top:0%;
+    left:13%;
+    background: #ff2400;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+.Tony .top .rim{
+    height: 50%;
+    width: 25%;
+    position: absolute;
+    top:45%;
+    left:30%;
+    background: #ffd700;
+     border-radius: 50%;
+    z-index: 1;
+}
+.Tony .top .rim .arc_reactor{
+    height: 77%;
+    width: 77%;
+    position: absolute;
+    top:11.5%;
+    left:11%;
+    background: #ffffe0;
+    border-radius: 50%;
+}
+.Tony .body .middle{
+    position: absolute;
+height: 50%;
+width:20%;
+    left:45%;
+    background: #ff2400;   
+}
+.Tony .body .middle_shadow{
+    position: absolute;
+height: 50%;
+width:30%;
+    left:35%;
+    background: #dd0000;   
+}
+
+.Tony .left_leg .hip_top{
+    position: absolute;
+   height:  5%;
+    width: 10%;
+    left: 35%;
+    bottom: 50%;
+    background: #ddc600;
+    border-top-right-radius:100% 
+        
+    
+}
+.Tony .left_leg .hip{
+    position: absolute;
+   height:  35%;
+    width: 10%;
+    left: 35%;
+    bottom: 15%;
+    background: #ddc600;
+}
+.Tony .left_leg .shin_top{
+    position: absolute;
+   height:  6%;
+    width: 12%;
+    left: 33%;
+    bottom: 25%;
+    background: #dd0000;
+    border-top-right-radius:100% 
+}
+.Tony .left_leg .shin{
+    position: absolute;
+   height:  25%;
+    width: 12%;
+    left: 33%;
+    bottom: 0%;
+    background: #dd0000;
+}
+
+.Tony .right_leg .hip_top{
+    position: absolute;
+   height:  5%;
+    width: 10%;
+    right: 35%;
+    bottom: 50%;
+    background:  #ffd700;
+    border-top-left-radius:100% 
+        
+    
+}
+.Tony .right_leg .hip{
+    position: absolute;
+   height:  35%;
+    width: 10%;
+    right: 35%;
+    bottom: 15%;
+    background:  #ffd700;
+}
+.Tony .right_leg .shin_top{
+    position: absolute;
+   height:  6%;
+    width: 12%;
+    right: 33%;
+    bottom: 25%;
+    background: #ff2400;
+    border-top-left-radius:100% 
+}
+.Tony .right_leg .shin{
+    position: absolute;
+   height:  25%;
+    width: 12%;
+    right: 33%;
+    bottom: 0%;
+    background: #ff2400;
+}
+
+.Tony .left_leg .fire{
+    position: absolute;
+    opacity: 0%;
+    height:  15%;
+    width: 10%;
+    top:101%;
+    left:34%;
+        background: #ffffe0;
+     -webkit-clip-path: polygon(50% 0%, 50% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+
+animation-name: fire;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+ 
+}
+.Tony .right_leg .fire{
+    position: absolute;
+    opacity: 0%;
+    height:  15%;
+    width: 10%;
+    top:101%;
+    right:34%;
+        background: #ffffe0;
+     -webkit-clip-path: polygon(50% 0%, 50% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+
+animation-name: fire;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+ 
+}
+
+.Tony .left_arm .top_arm{
+    position: absolute;
+    height:  18%;
+    width: 18%;
+    top:15%;
+    left:10%;
+    background: #dd0000;
+    border-radius: 50%;
+}
+.Tony .left_arm .middle_arm{
+    position: absolute;
+    height:  20%;
+    width: 5%;
+    top:25%;
+    left:16.5%;
+    background: #ffd700;
+}
+.Tony .left_arm .middle_arm_circle{
+    position: absolute;
+    height:  5%;
+    width: 5%;
+    top:45%;
+    left:16.5%;
+    border-bottom-left-radius: 100%;
+    background: #ffd700;
+}
+.Tony .left_arm .palm_circle{
+    position: absolute;
+    height:  18%;
+    width: 12.5%;
+    top:42%;
+    left:9%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    background: #dd0000;
+}
+.Tony .left_arm .palm{
+    position: absolute;
+    height:  5%;
+    width: 10%;
+    top:55%;
+    left:14%;
+    background: #dd0000;
+    border-bottom-right-radius: 50%;
+    animation-name: palm;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+.Tony .left_arm .fire{
+    position: absolute;
+    opacity: 0%;
+    height:  6%;
+    width: 2.5%;
+    top:64%;
+    left:18.5%;
+        background: #ffffe0;
+     -webkit-clip-path: polygon(50% 0%, 50% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+
+animation-name: fire;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+ 
+}
+
+.Tony .right_arm .top_arm{
+    position: absolute;
+    height:  18%;
+    width: 18%;
+    top:15%;
+    right:10%;
+    background: #ff2400;
+    border-radius: 50%;
+}
+.Tony .right_arm .middle_arm{
+    position: absolute;
+    height:  20%;
+    width: 5%;
+    top:25%;
+    right:16.5%;
+    background: #ffd700;
+}
+.Tony .right_arm .middle_arm_circle{
+    position: absolute;
+    height:  5%;
+    width: 5%;
+    top:45%;
+    right:16.5%;
+    border-bottom-right-radius: 100%;
+    background: #ffd700;
+}
+.Tony .right_arm .palm_circle{
+    position: absolute;
+    height:  18%;
+    width: 12.5%;
+    top:42%;
+    right:9%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    background: #ff2400;
+}
+.Tony .right_arm .palm{
+    position: absolute;
+    height:  5%;
+    width: 10%;
+    top:55%;
+    right:14%;
+    background: #ff2400;
+    border-bottom-left-radius: 50%;
+    animation-name: rpalm;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+.Tony .right_arm .fire{
+    position: absolute;
+    opacity: 0%;
+    height:  6%;
+    width: 2.5%;
+    top:64%;
+    right:18.5%;
+        background: #ffffe0;
+     -webkit-clip-path: polygon(50% 0%, 50% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+
+animation-name: fire;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+ 
+}
+
+@keyframes palm{
+    0%{
+        transform: rotate(0deg)
+    }
+    
+    10%{
+        transform: rotate(90deg)
+    }
+    
+    90%{transform: rotate(90deg)
+        
+    }
+    100%{
+         transform: rotate(0deg)
+    }
+}
+@keyframes rpalm{
+    0%{
+        transform: rotate(0deg)
+    }
+    
+    10%{
+        transform: rotate(-90deg)
+    }
+    
+    90%{transform: rotate(-90deg)
+        
+    }
+    100%{
+         transform: rotate(0deg)
+    }
+}
+@keyframes fire{
+    10%{
+        opacity: 0;
+        -webkit-clip-path: polygon(0% 0%, 50% 0%, 100% 0%);
+  clip-path: polygon(0% 0%, 50% 0%, 100% 0%);
+    }
+    
+    25%{
+opacity: 100%
+    -webkit-clip-path: polygon(0% 0%, 50% 50%, 100% 0%);
+  clip-path: polygon(0% 0%, 50% 50%, 100% 0%);}
+    40%{
+        opacity: 100%;
+            -webkit-clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+    }
+    60%{
+        opacity: 90%;
+            -webkit-clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+    }
+    75%{
+        opacity: 60%
+            -webkit-clip-path: polygon(0% 0%, 50% 50%, 100% 0%);
+  clip-path: polygon(0% 0%, 50% 50%, 100% 0%);
+    }
+    100%{
+         opacity: 0%
+             -webkit-clip-path: polygon(0% 0%, 50% 0%, 100% 0%);
+  clip-path: polygon(0% 0%, 50% 0%, 100% 0%);
+    }
+}
+
+
+
+/*Captain*/
+
+
+.Captain  {
+     position: absolute;
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    right:0;
+    width: 40%;
+    height: 60%;
+}
+.Captain .head{
+    position: absolute;
+    height: 20%;
+    width: 16%;
+    top:0;
+    left:30%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: #ffeea8;
+}
+.Captain .head .mask{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top:0;
+    left:0%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    background: #0f93ff;
+}
+.Captain .head .a{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    font-family: cursive;
+    top:0;
+    left:37%;
+    color:#ffffff;
+}
+.Captain .head .eye{
+    position: absolute;
+    height: 20%;
+    width: 80%;
+    left:10%;
+    top:65%;
+}
+.Captain .head .eye .left_eye{
+    position: absolute;
+    height: 100%;
+    width: 33%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    background:#ffffff;
+   
+}
+.Captain .head .eye .right_eye{
+    position: absolute;
+    height: 100%;
+    width: 33%;
+    right: 0;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    background:#ffffff;
+   
+}
+.Captain .head .eye .left_eye .pupil{
+    position: absolute;
+    height: 70%;
+    width: 60%;
+    top:30%;
+    left:20%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    background:#000000;
+    animation-name: eye;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+   
+}
+.Captain .head .eye .right_eye .pupil{
+    position: absolute;
+    height: 70%;
+    width: 60%;
+    top:30%;
+    left:20%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    background:#000000;
+    animation-name: eye;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+   
+}
+.Captain .head .nose{
+    position: absolute;
+    height: 10%;
+    width: 15%;
+    left:42.5%;
+    top:87%;
+     border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    background: #ffeea8;
+}
+
+.Captain .body{
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    top:20%;
+    left:13%;
+}
+.Captain .body .top_shadow{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+     border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background: #1959d1;
+}
+.Captain .body .top_shadow .top{
+    position: absolute;
+    height: 100%;
+    width: 87%;
+    left:13%;
+     border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background: #0f93ff;
+    
+}
+.Captain .body .top_shadow .top .star{
+    position: absolute;
+     height: 40%;
+    width: 25%;
+    top:10%;
+    left:30%;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: #ffffff; 
+}
+.Captain .body .middle{
+    position: absolute;
+     height: 40%;
+    width: 30%;
+    bottom:0%;
+    left:35%;
+}
+.Captain .body .middle .belt_shadow{
+    position: absolute;
+     height: 50%;
+    width: 100%;
+    bottom:50%;
+    background: #dd0000;
+}
+.Captain .body .middle .belt_shadow .belt{
+    position: absolute;
+     height: 100%;
+    width: 60%;
+    left: 40%;
+    background: #ff2400;
+}
+.Captain .body .middle .belt_shadow .belt .rectangle{
+    position: absolute;
+     height: 100%;
+    width: 50%;
+    left: 0%;
+    background: #ffffff;
+}
+.Captain .body .middle .pants_shadow {
+    position: absolute;
+    bottom:0;
+     height: 50%;
+    width: 100%;
+    background: #1959d1;
+}
+.Captain .body .middle .pants_shadow .pants{
+    position: absolute;
+     height: 100%;
+    width: 60%;
+    left: 40%;
+    background:  #0f93ff;
+}
+
+.Captain .legs{
+    position: absolute;
+    height: 50%;
+    width: 30%;
+    left:23%;
+    bottom:0;
+}
+.Captain .legs .left_leg{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+.Captain .legs .left_leg .hip{
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    left:50%;
+    background: #1959d1;
+}
+.Captain .legs .left_leg .boot{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    left:0%;
+    bottom: 0%;
+}
+.Captain .legs .left_leg .boot .top{
+    position: absolute;
+    height: 20%;
+    width: 59%;
+    left:39%;
+    background: #dd0000
+}
+.Captain .legs .left_leg .boot .middle{
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    right:10%;
+    top:20%;
+    background: #dd0000
+}
+.Captain .legs .left_leg .boot .bottom{
+    position: absolute;
+    height: 20%;
+    width: 80%;
+    right:10%;
+    bottom:0%;
+    background: #dd0000
+}
+
+.Captain .legs .right_leg{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0;
+}
+.Captain .legs .right_leg .hip{
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    right:50%;
+    background: #0f93ff;
+}
+.Captain .legs .right_leg .boot{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    right:0%;
+    bottom: 0%;
+}
+.Captain .legs .right_leg .boot .top{
+    position: absolute;
+    height: 20%;
+    width: 59%;
+    right:39%;
+    background: #ff2400;
+}
+.Captain .legs .right_leg .boot .middle{
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    left:10%;
+    top:20%;
+    background: #ff2400;
+}
+.Captain .legs .right_leg .boot .bottom{
+    position: absolute;
+    height: 20%;
+    width: 80%;
+    left:10%;
+    bottom:0%;
+    background: #ff2400;
+}
+
+.Captain .arms{
+    position: absolute;
+width: 63%;
+height: 50%;
+top:20%;
+left:7%;
+}
+.Captain .arms .left_arms{
+    position: absolute;
+width: 25%;
+height: 100%;
+}
+.Captain .arms .left_arms .top{
+    position: absolute;
+width: 100%;
+height: 35%;
+    background: #1959d1;
+    border-radius: 50%;
+   
+}
+.Captain .arms .left_arms .middle{
+    position: absolute;
+width: 65%;
+height: 40%;
+    top:15%;
+    left:28%;
+    background:  #ddddbd;
+    border-radius: 40%;
+}
+.Captain .arms .left_arms .palm_top{
+    position: absolute;
+width: 25%;
+height: 30%;
+    top:40%;
+    left:68%;
+    background: #ddddbd;
+}
+.Captain .arms .left_arms .palm_middle{
+    position: absolute;
+width: 50%;
+height: 30%;
+    top:70%;
+    left:50%;
+    background: #dd0000;
+     -webkit-clip-path: polygon(50% 0%, 90% 80%, 100% 0%);
+  clip-path: polygon(0% 0%, 90% 80%, 100% 0%);
+}
+.Captain .arms .left_arms .bottom{
+    position: absolute;
+width: 30%;
+height: 10%;
+    bottom:5%;
+    left:80%;
+    background: #dd0000;
+    border-radius: 50%
+   
+}
+
+.Captain .arms .right_arms{
+    position: absolute;
+width: 25%;
+height: 100%;
+    right:0%;
+     animation-name: arm;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+.Captain .arms .right_arms .top{
+    position: absolute;
+width: 100%;
+height: 35%;
+    background: #0f93ff;
+    border-radius: 50%;
+   
+}
+.Captain .arms .right_arms .middle{
+    position: absolute;
+width: 65%;
+height: 40%;
+    top:15%;
+    right:28%;
+    background:  #ffffcf;
+    border-radius: 40%;
+}
+.Captain .arms .right_arms .palm_top{
+    position: absolute;
+width: 25%;
+height: 30%;
+    top:40%;
+    right:68%;
+    background: #ffffcf;
+}
+.Captain .arms .right_arms .palm_middle{
+    position: absolute;
+width: 50%;
+height: 30%;
+    top:70%;
+    right:50%;
+    background: #ff2400;
+     -webkit-clip-path: polygon(50% 0%, 10% 80%, 100% 0%);
+  clip-path: polygon(0% 0%, 10% 80%, 100% 0%);
+}
+.Captain .arms .right_arms .bottom{
+    position: absolute;
+width: 30%;
+height: 10%;
+    bottom:5%;
+    right:80%;
+    background: #ff2400;
+    border-radius: 50%
+   
+}
+
+.shield{
+    position: absolute;
+    width: 35%;
+    height: 35%;
+    right:25%;
+    bottom:20%;
+     animation-name: shield;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    
+}
+.shield .red{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ff2400;
+    box-shadow:  -5px 0px 10px 0px;
+}
+.shield .red .white{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top:10%;
+    left:10%;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.shield .red .white .blue{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top:10%;
+    left:10%;
+    border-radius: 50%;
+    background: #0f93ff;
+}
+.shield .red .white .blue .star{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top:25%;
+    left:25%;
+    background: #ffffff;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+@keyframes arm{
+    0%{
+        transform:translate(0%,0%) rotate(0deg)
+    }
+    
+    10%{
+        transform:translate(40%,-5%) rotate(-25deg)
+    }
+    
+    90%{
+        transform:translate(40%,-5%) rotate(-25deg)
+    }
+    100%{
+         transform:translate(0%,0%) rotate(0deg)
+    }
+}
+@keyframes shield{
+    0%{
+        transform: translate(0%);
+    }
+    
+    10%{
+        transform: translate(40%,0%)  rotate(25deg);
+    }
+    
+    50%{transform:translate(40%,-350%)  rotate(720deg);
+        
+    }
+    90%{
+        transform: translate(40%,0%);
+    }
+    100%{
+         transform: translate(0%)
+    }
+}
+@keyframes eye{
+    0%{
+        transform: translate(0%)
+    }
+    
+    10%{
+        transform: translate(40%,0%);
+    }
+    
+    50%{transform:translate(20%,-50%);
+        
+    }
+    
+    100%{
+         transform: translate(0%)
+    }
+}
+
+/*Hulk*/
+
+.Hulk {
+     position: absolute;
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    right:25%;
+    width: 50%;
+    height: 90%;
+}
+.Hulk .head{
+     position: absolute;
+    right:40%;
+    width: 20%;
+    height: 18%;
+}
+.Hulk .head .hair{
+     position: absolute;
+    width: 100%;
+    height: 28%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-radius: 30% 30% 0% 0% / 100% 100% 0 0;
+    background: #002800;
+}
+.Hulk .head .face{
+    position: absolute;
+    width: 90%;
+    height: 72%;
+    top:27%;
+    left:5%;
+     clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    background: #008f00;
+}
+.Hulk .head .face .eye{
+    position: absolute;
+    width: 60%;
+    height: 25%;
+        top:20%;
+    left:20%;
+}
+.Hulk .head .face .eye .left_eye{
+    position: absolute;
+    width: 20%;
+    height: 45%;
+        bottom:0%;
+    left:10%;
+    border-radius:50%;
+    background: #000000;
+}
+.Hulk .head .face .eye .right_eye{
+    position: absolute;
+    width: 20%;
+    height: 45%;
+        bottom:0%;
+    right:10%;
+    border-radius:50%;
+    background: #000000;
+}
+.Hulk .head .face .eye .left_eyebrow{
+    position: absolute;
+    width: 40%;
+    height: 25%;
+    top:0%;
+    left:0%;
+    background: #000000;
+     animation-name: leyebrow;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+.Hulk .head .face .eye .right_eyebrow{
+    position: absolute;
+    width: 40%;
+    height: 25%;
+    top:0%;
+    right:0%;
+    background: #000000;
+     animation-name: reyebrow;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+.Hulk .head .face .mouse{
+    position: absolute;
+    width: 50%;
+    height: 35%;
+    top:50%;
+    right:25%;
+    border-radius: 50% 50% 0% 0% / 100% 100% 0 0;
+    background: #ffffff;
+    opacity: 0%;
+     animation-name: mouse;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+.Hulk .head .face .mouse .teeth_bottom{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top:30%;
+    right:0%;
+    border-radius: 25% 25% 0% 0% / 100% 100% 0 0;
+    background: #330006;
+    opacity: 100%;
+}
+.Hulk .head .face .mouse .teeth_bottom .tongue{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top:60%;
+    right:30%;
+    border-radius: 50% 50% 0% 0% / 100% 100% 0 0;
+    background: #d36e70;
+    
+}
+.Hulk .body{
+     position: absolute;
+    left:17%;
+    width: 66%;
+    height: 53%;
+    top:17%;
+}
+.Hulk .body .ssshadow{
+     position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #003b00;
+}
+.Hulk .body .ssshadow .sshadow{
+     position: absolute;
+    width: 95%;
+    height: 100%;
+    right:0%;
+    border-radius: 50% ;
+    background: #004d00;
+}
+.Hulk .body .ssshadow .sshadow .shadow{
+     position: absolute;
+    width: 90%;
+    height: 99.9%;
+    right:0%;
+    border-radius: 50% ;
+    background: #008f00; 
+}
+.Hulk .body .left{
+     position: absolute;
+    width: 4%;
+    height: 4%;
+    left:20%;
+    top:30%;
+    border-radius: 50% ;
+    background: #000000;
+    opacity: 50%;
+}
+.Hulk .body .right{
+     position: absolute;
+    width: 4%;
+    height: 4%;
+    right:20%;
+    top:30%;
+    border-radius: 50% ;
+    background: #000000;
+    opacity: 50%;
+}
+.Hulk .body .center{
+     position: absolute;
+    width: 4%;
+    height: 4.5%;
+    right:45%;
+    top:85%;
+    border-radius: 50% ;
+    background: #000000;
+    opacity: 50%;
+}
+
+.Hulk .legs{
+     position: absolute;
+    left:32%;
+    width: 36%;
+    height: 32%;
+    bottom:0%;
+}
+.Hulk .legs .pants_shadow{
+     position: absolute;
+    left:20%;
+    width: 60%;
+    height: 25%;
+    background: #240935;
+}
+.Hulk .legs .pants_shadow .pants{
+     position: absolute;
+    left:40%;
+    width: 60%;
+    height: 100%;
+    background: #60188c;
+}
+.Hulk .legs .pants_shadow .pants .rectangle{
+     position: absolute;
+    left:15%;
+    top:33%;
+    width: 30%;
+    height: 20%;
+    background: #ffffff;
+}
+
+.Hulk .legs .left_leg .leg_top{
+     position: absolute;
+    left:20%;
+    top:25%;
+    width: 24%;
+    height: 25%;
+    background: #240935;
+}
+.Hulk .legs .right_leg .leg_top{
+     position: absolute;
+    right:20%;
+    top:25%;
+    width: 24%;
+    height: 25%;
+    background: #60188c;
+}
+.Hulk .legs .right_leg .leg_middle{
+     position: absolute;
+    right:25%;
+    top:50%;
+    width: 13%;
+    height: 43%;
+    background: #008f00;
+}
+.Hulk .legs .right_leg .leg_bottom{
+     position: absolute;
+    right:8%;
+    top:93%;
+    width: 30%;
+    height: 7%;
+    background: #008f00;
+}
+
+.Hulk .legs .left_leg .leg_middle{
+     position: absolute;
+    left:25%;
+    top:50%;
+    width: 13%;
+    height: 43%;
+    background: #004d00;
+}
+.Hulk .legs .left_leg .leg_bottom{
+     position: absolute;
+    left:8%;
+    top:93%;
+    width: 30%;
+    height: 7%;
+    background: #004d00;
+}
+
+.Hulk .arms{
+     position: absolute;
+    left:10%;
+    width: 80%;
+    height: 60%;
+    bottom:15%;
+}
+.Hulk .arms .left_arm .top_arm{
+     position: absolute;
+    left:0%;
+    width: 70%;
+    height: 100%;
+    background: #003b00;
+    border-radius: 200% 0% 100% 100% / 50% 100% 50% 50%;
+}
+.Hulk .arms .left_arm .bottom_arm{
+     position: absolute;
+    bottom:-2%;
+    width: 85%;
+    height: 25%;
+    left:10%;
+    background: #003b00;
+    border-radius:  50%;
+     animation-name: pulml;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+.Hulk .arms .right_arm .top_arm{
+     position: absolute;
+    right:0%;
+    width: 70%;
+    height: 100%;
+    background: #008f00;
+    border-radius: 0% 200% 100% 100% / 100% 50% 50% 50%;
+}
+.Hulk .arms .right_arm .bottom_arm{
+     position: absolute;
+    bottom:-2%;
+    width: 85%;
+    height: 25%;
+    right:10%;
+    background: #008f00;
+    border-radius:  50%;
+    animation-name: pulmr;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+.Hulk .arms .left_arm{
+    position: absolute;
+    left:0%;
+    width: 30%;
+    height: 100%;
+    animation-name: lhulk;
+    animation-duration: 6s;
+    animation-timing-function: ease;}
+.Hulk .arms .right_arm{
+    position: absolute;
+    right:0%;
+    width: 30%;
+    height: 100%;
+    animation-name: rhulk;
+    animation-duration: 6s;
+    animation-timing-function: ease;}
+@keyframes pulml{
+    0%{
+        
+        transform:  translate(0%,0%) scale(1 ,1)
+    }
+    20% ,40%, 60%, 80%{
+        transform:  translate(-25%,0%) scale(1.5, 1.5)
+    }
+    10% ,30% ,50% ,70%, 90%{transform:  translate(-25%,0%)scale(1,1)
+        
+    }
+   
+    100%{
+         transform:  translate(0%,0%) scale(1, 1)
+    }
+}
+@keyframes pulmr{
+    0%{
+        
+        transform:  translate(0%,0%) scale(1 ,1)
+    }
+    20% ,40%, 60%, 80%{
+        transform:  translate(25%,0%) scale(1, 1)
+    }
+    10% ,30% ,50% ,70%, 90%{transform:  translate(25%,0%)scale(1.5,1.5)
+        
+    }
+   
+    100%{
+         transform:  translate(0%,0%) scale(1, 1)
+    }
+}
+@keyframes rhulk{
+    0%{
+        
+        transform: rotate(0deg) translate(0%,0%)
+    }
+   
+    10%{
+        transform: rotate(-160deg) translate(50%,80%)
+    }
+    
+    90%{
+        transform: rotate(-160deg) translate(50%,80%)
+    }
+    100%{
+         transform: rotate(0deg) translate(0%,0%)
+    }
+}
+@keyframes lhulk{
+    0%{
+        
+        transform: rotate(0deg) translate(0%,0%) 
+    }
+    /*
+    1%{
+        transform: rotate(16deg) translate(-18%,-10%)
+    }
+    2%{
+         transform: rotate(32deg) translate(-50%,-5%)
+    }
+    3%{
+         transform: rotate(48deg) translate(-75%,-0%)
+    }
+    4%{
+         transform: rotate(64deg) translate(-100%,5%)
+    }
+    5%{
+        transform: rotate(80deg) translate(-130%,10%)
+    }
+    6%{
+        transform: rotate(96deg) translate(-150%,25%)
+    }
+    7%{
+         transform: rotate(112deg) translate(-150%,40%)
+    }
+    8%{
+         transform: rotate(128deg) translate(-130%,60%)
+    }
+    9%{
+        transform: rotate(144eg) translate(-75%,70%)}
+    */
+    10%{
+        transform: rotate(160deg) translate(-50%,80%) 
+    }
+    
+    90%{
+        transform: rotate(160deg) translate(-50%,80%) 
+    }
+    100%{
+         transform: rotate(0deg) translate(0%,0%)
+    }
+}
+@keyframes mouse{
+    0%{
+        opacity:0%
+    }
+    
+    10%{
+        opacity:100%
+    }
+    
+    90%{
+        opacity:100%
+    }
+    100%{
+         opacity:0%
+    }
+}
+@keyframes leyebrow{
+    0%{
+        transform: rotate(0deg)
+    }
+    
+    10%{
+        transform:rotate(25deg)
+    }
+    
+    90%{
+        transform: rotate(25deg)
+    }
+    100%{
+         transform:rotate(0deg)
+    }
+}
+@keyframes reyebrow{
+    0%{
+        transform: rotate(0deg)
+    }
+    
+    10%{
+        transform:rotate(-25deg)
+    }
+    
+    90%{
+        transform: rotate(-25deg)
+    }
+    100%{
+         transform:rotate(0deg)
+    }
+}
+
+/*Tor*/
+
+.Tor{
+position: absolute;
+width: 30%;
+height: 70%;
+left:25%;
+ bottom:0;
+}
+.Tor .head{
+    position: absolute;
+width: 34%;
+height: 25%;
+left:33%;
+}
+.Tor .head .hear{
+    position: absolute;
+    width: 80%;
+    height: 40%;
+    bottom:0%;
+    left:10%;
+    background: #fffbb8;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+.Tor .head .hear .neck{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    bottom:0%;
+    left:25%;
+    background: #ffd089;
+}
+.Tor .head .beard{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    left:25%;
+    top:15%;
+    background:  #fffbb8;
+    border-radius:40%;
+}
+.Tor .head .beard .face{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    left:0%;
+
+    background:  #ffd089;
+    border-radius:40%;
+}
+.Tor .head .beard .face .eye{
+    position: absolute;
+    width: 70%;
+    height: 8%;
+    left:15%;
+    top:45%;
+}
+.Tor .head .beard .face .eye .left_eye{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+   background:  #ffffff;
+    border-radius:40%;
+}
+.Tor .head .beard .face .eye .left_eye .pupil{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    left:30%;
+   background:  #000000;
+    border-radius:40%;
+}
+.Tor .head .beard .face .eye .right_eye{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+   background:  #ffffff;
+    right:0%;
+    border-radius:40%;
+}
+.Tor .head .beard .face .eye .right_eye .pupil{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    right:30%;
+   background:  #000000;
+    border-radius:40%;
+}
+.Tor .head .beard .face .mouseteach{
+    position: absolute;
+    width: 60%;
+    height: 55%;
+    left:20%;
+    top:60%;
+    background:  #fffbb8;
+    border-radius:50%;
+}
+.Tor .head .helmet{
+    position: absolute;
+    width: 70%;
+    height: 35%;
+    left:15%;
+}
+.Tor .head .helmet .center{
+    position: absolute;
+    width: 74%;
+    height: 70%;
+    left:13%;
+    top:40%;
+    background:  #bbbbbb;
+    border-radius: 40% 40% 0% 0% / 90% 90% 0% 0%;
+}
+.Tor .head .helmet .left{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background:  #aaaaaa;
+    border-radius: 15% 100% 0% 100% / 100% 100% 50% 100%;
+}
+.Tor .head .helmet .right{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    right:0;
+    background:  #bbbbbb;
+    border-radius: 100% 15% 100% 0% / 100% 100% 100% 50%;
+}
+
+.Tor .body{
+      position: absolute;
+width: 70%;
+height: 35%;
+left:15%;
+    top:25%
+}
+.Tor .body .bodyy_shadow{
+     position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00008b;
+    clip-path: polygon(0% 0%, 100% 0%, 70% 100%, 30% 100%);
+}
+.Tor .body .bodyy_shadow .bodyy{
+     position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000c2;
+    clip-path: polygon(40% 0%, 100% 0%, 80% 100%, 45% 100%);
+}
+.Tor .body .bodyy_shadow  .lefttop{
+     position: absolute;
+    width: 30%;
+    height: 39%;
+    background: #aaaaaa;
+    top:15%;
+    left:15%;
+    border-radius:50%;
+}
+.Tor .body .bodyy_shadow  .righttop{
+     position: absolute;
+    width: 30%;
+    height: 39%;
+    background: #bbbbbb;
+    top:15%;
+    right:15%;
+    border-radius:50%;
+}
+.Tor .body .bodyy_shadow  .leftbottom{
+     position: absolute;
+    width: 15%;
+    height: 20%;
+    background: #aaaaaa;
+    bottom:15%;
+    left:30%;
+    border-radius:50%;
+}
+.Tor .body .bodyy_shadow  .rightbottom{
+     position: absolute;
+    width: 15%;
+    height: 20%;
+    background: #bbbbbb;
+    bottom:15%;
+    right:30%;
+    border-radius:50%;
+}
+
+.Tor .legs{
+     position: absolute;
+width: 51%;
+height: 40%;
+left:23%;
+    bottom:0%
+}
+.Tor .legs .belt_shadow{
+     position: absolute;
+width: 55%;
+height: 5%;
+left:25%;
+         background: #d6ae01;
+}
+.Tor .legs .belt_shadow .belt{
+     position: absolute;
+width: 60%;
+height: 100%;
+left:40%;
+         background: #ffd700;
+}
+.Tor .legs .pants_shadow{
+     position: absolute;
+width: 55%;
+height: 15%;
+left:25%;
+   top:5%;
+        background: #00008b;
+}
+.Tor .legs .pants_shadow .pants{
+     position: absolute;
+width: 60%;
+height: 100%;
+left:40%;
+        background: #0000c2;
+}
+
+.Tor .legs .left_leg{
+     position: absolute;
+width: 48%;
+height: 80%;
+bottom:0%;
+   
+}
+.Tor .legs .left_leg .hip{
+     position: absolute;
+width: 45%;
+height: 50%;
+left:52%;
+    background: #00008b;
+}
+.Tor .legs .left_leg .knee{
+     position: absolute;
+width: 60%;
+height: 15%;
+left:45%;
+    top:45%;
+    border-top-left-radius: 100%;
+    border-top-right-radius:100%;
+    background: #ffd700;
+}
+.Tor .legs .left_leg .boot{
+     position: absolute;
+width: 40%;
+height: 35%;
+left:54%;
+    bottom:5%;
+    background: #d6ae01;
+    clip-path: polygon(0% 0%, 100% 0%, 70% 100%, 20% 100%);
+}
+.Tor .legs .left_leg .bottom{
+     position: absolute;
+width: 53%;
+height: 5%;
+    left:30%;
+    bottom:0%;
+    background: #d6ae01;
+    
+}
+
+.Tor .legs .right_leg{
+     position: absolute;
+width: 48%;
+height: 80%;
+bottom:0%;
+    right:-5%;
+   
+}
+.Tor .legs .right_leg .hip{
+     position: absolute;
+width: 45%;
+height: 50%;
+right:52%;
+    background: #0000c2;
+}
+.Tor .legs .right_leg .knee{
+     position: absolute;
+width: 60%;
+height: 15%;
+right:45%;
+    top:45%;
+    border-top-left-radius: 100%;
+    border-top-right-radius:100%;
+    background: #d6ae01;
+}
+.Tor .legs .right_leg .boot{
+     position: absolute;
+width: 40%;
+height: 35%;
+right:54%;
+    bottom:5%;
+    background: #ffd700;
+    clip-path: polygon(0% 0%, 100% 0%, 70% 100%, 20% 100%);
+}
+.Tor .legs .right_leg .bottom{
+     position: absolute;
+width: 53%;
+height: 5%;
+    right:34%;
+    bottom:0%;
+    background: #ffd700;
+    
+}
+
+.Tor .arms{
+     position: absolute;
+width: 100%;
+height: 65%;
+top:25%
+}
+.Tor .arms .left_arm{
+     position: absolute;
+width: 30%;
+height: 100%;
+top:0%;
+    animation-name: torhammer;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+.Tor .arms .left_arm .top{
+position: absolute;
+width: 100%;
+height: 30%;
+    border-radius: 50%;
+background: #00008b; 
+}
+.Tor .arms .left_arm .top{
+position: absolute;
+width: 100%;
+height: 30%;
+    border-radius: 50%;
+background: #ffd089; 
+}
+.Tor .arms .left_arm .middle{
+position: absolute;
+width: 78%;
+height: 60%;
+    top:5%;
+    left:5%;
+border-top-left-radius: 50%;
+    border-bottom-left-radius: 100%;
+background: #ffd089;
+}
+.Tor .arms .left_arm .palm{
+position: absolute;
+width: 30%;
+height: 10%;
+    top:65%;
+    left:53%;
+}
+.Tor .arms .left_arm .palm .ptop{
+position: absolute;
+width: 100%;
+height: 30%;
+    background: #ffd089;
+}
+.Tor .arms .left_arm .palm .pmiddle{
+position: absolute;
+width: 100%;
+height: 30%;
+    top:30%;
+    background: #3f2512;
+}
+.Tor .arms .left_arm .palm .pbottom{
+position: absolute;
+width: 100%;
+height: 40%;
+    top:60%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: #ffd089;
+}
+.Tor .arms .right_arm{
+     position: absolute;
+width: 30%;
+height: 100%;
+top:0%;
+    right:0%;
+}
+.Tor .arms .right_arm .top{
+position: absolute;
+width: 100%;
+height: 30%;
+    border-radius: 50%;
+background: #ffd089; 
+}
+.Tor .arms .right_arm .middle{
+position: absolute;
+width: 78%;
+height: 60%;
+    top:5%;
+    right:5%;
+border-top-right-radius: 50%;
+    border-bottom-right-radius: 100%;
+background: #ffd089;
+}
+.Tor .arms .right_arm .palm{
+position: absolute;
+width: 30%;
+height: 10%;
+    top:65%;
+    right:53%;
+}
+.Tor .arms .right_arm .palm .ptop{
+position: absolute;
+width: 100%;
+height: 30%;
+    right:0%;
+    background: #ffd089;
+}
+.Tor .arms .right_arm .palm .pmiddle{
+position: absolute;
+width: 100%;
+height: 30%;
+    top:30%;
+    right:0%;
+    background: #3f2512;
+}
+.Tor .arms .right_arm .palm .pbottom{
+position: absolute;
+width: 100%;
+height: 40%;
+    top:60%;
+    right:0%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: #ffd089;
+}
+
+.Tor .arms .left_arm .hammer{
+position: absolute;
+width: 100%;
+height: 30%;
+    bottom:0%;
+    animation-name: tor;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+.Tor .arms .left_arm .hammer .htop{
+position: absolute;
+width: 10%;
+height: 50%;
+    bottom:50%;
+    right:25%;
+    background: #3f2512;
+}
+.Tor .arms .left_arm .hammer .hmiddle{
+position: absolute;
+width: 60%;
+height: 45%;
+    bottom:5%;
+    right:0%;
+    background: #aaaaaa;
+    border-radius: 15%
+}
+.Tor .arms .left_arm .hammer .hbottom{
+position: absolute;
+width: 10%;
+height: 5%;
+    bottom:0%;
+    right:25%;
+    background: #3f2512;
+}
+
+
+.Hammer{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top:10%;
+    left:28%;
+    animation-name: hammer;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    opacity: 0%
+}
+.Hammer .ttop{
+    position: absolute;
+    width: 8%;
+    height: 15%;
+    left:46%;
+    top:10%;
+}
+.Hammer .ttop .ttopp{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top:10%;
+    background: #3f2512;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+.Hammer .ttop .tttop{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background: #4f3623;
+    border-radius: 25%;
+}
+.Hammer .mmidle {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top:12%
+}
+.Hammer .mmidle .mtop{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background: #bbbbbb;
+     clip-path: polygon(40% 0%, 100% 40%, 60% 100%, 0% 50%);
+}
+.Hammer .mmidle .mleft{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top:10%;
+    background: #999999;
+     clip-path: polygon(0% 0%, 100% 16%, 100% 100%, 10% 50%);
+}
+.Hammer .mmidle .mright{
+    position: absolute;
+    width: 40%;
+    height: 62%;
+    top:8%;
+    left:60%;
+    background: #aaaaaa;
+     clip-path: polygon(0% 19%, 100% 0%, 80% 70%, 0% 100%);
+}
+.Hammer .bbottom {
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    left:40%;
+    bottom:10%;
+}
+.Hammer .bbottom .btop{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background: #3f2512;
+    clip-path: polygon(20% 0%, 70% 0%, 50% 100%, 0% 100%);
+     animation-name: hammerbottom;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    
+}
+@keyframes hammerbottom{
+    0%{
+        
+        transform:translateY(0%)scaleY(1)
+    }
+    10% {
+        transform:translateY(0%)  scaleY(1)
+    }
+    50%{
+        transform:translateY(-20%)  scaleY(0.5)
+    }
+    90%{transform:translateY(0%)  scaleY(1)
+        
+    }
+   
+    100%{
+         transform:translateY(0%)  scale(1)
+    }
+}
+@keyframes hammer{
+    0%{
+        
+        transform:translate(0%,0%)scale(1,1);
+            opacity:0%;
+    }
+    10% {
+        transform:translate(0%,0%)  scale(1,1);
+            opacity:0%;
+    }
+    11%{transform:translate(0%,0%)  scale(1,1);
+        opacity:100%;
+        
+    }
+    50%{
+        transform:translate(55%,250%)  scale(10,10);
+            opacity:100%;
+    }
+    90%{transform:translate(0%,0%)  scale(1,1);
+        opacity:100%;
+        
+    }
+    91%{transform:translate(0%,0%)  scale(1,1);
+        opacity:0%;
+        }
+   
+    100%{
+         transform:translate(0%,0%)  scale(1,1);
+             opacity:0%;
+    }
+}
+@keyframes torhammer{
+    0%{
+        
+        transform:translateY(0%)scale(1,1)
+    }
+    10% {
+        transform:translateY(-80%)  scale(1,-1)
+    }
+    
+    90%{transform:translateY(-80%)  scale(1,-1)
+        
+    }
+   
+    100%{
+         transform:translateY(0%)  scale(1,1)
+    }
+}
+@keyframes tor{
+    0%{
+        
+        opacity:100%
+    }
+    10% {
+        opacity: 100%
+    }
+    11% {
+        opacity: 0%
+    }
+    
+    90%{opacity:0
+        
+    }
+    91%{
+opacity: 100%}
+   
+    100%{
+         opacity:100%
+    }
+}
+
+.glass{
+    top:-20%;
+    left:16%;
+    position: absolute;
+    opacity: 0%;
+    animation-name: glass;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+.glass img{
+    height: 70%;
+    width: 70%;
+}
+
+@keyframes glass{
+    0%{
+        
+        opacity: 0%;
+    }
+    40%{
+        opacity: 0%;
+    }
+    49.9%{
+        opacity: 100%;
+    }
+    
+   
+    100%{
+         opacity: 100%;
+    }
+}
+
+
